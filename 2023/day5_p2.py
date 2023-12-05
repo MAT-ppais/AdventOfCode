@@ -51,7 +51,7 @@ def main():
                     break
             locations_list.append(int(current_value))
             print(int(seed[1]) - i)
-        print(min(locations_list))
+    print(min(locations_list))
 
 
 if __name__ == "__main__":
