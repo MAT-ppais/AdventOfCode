@@ -1,8 +1,8 @@
 def main():
     with open("inputs/day6.txt") as file:
         lines = file.readlines()
-        time = list(map(int, lines[0].split()[1:]))  # Skip the first word 'Time:'
-        distance = list(map(int, lines[1].split()[1:]))  # Skip the first word 'Distance:'
+        time = list(map(int, lines[0].split()[1:]))
+        distance = list(map(int, lines[1].split()[1:]))
     print(time)
     print(distance)
     local_count = 0
