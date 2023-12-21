@@ -23,7 +23,6 @@ def main():
         local_count = i * remaining_time
         if local_count > distance_total:
             how_much_ways += 1
-        time_new_record.append(how_much_ways)
     print(how_much_ways)
     
 
